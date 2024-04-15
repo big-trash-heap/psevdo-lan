@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "ts-node",
+      "program": "${workspaceFolder}/src/main.ts",
+      "sourceMaps": true
+    },
+    {
+      "name": "p-v1",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "ts-node",
+      "program": "${workspaceFolder}/src/p-v1/min-program.ts",
+      "sourceMaps": true
+    }
+  ]
+}
